@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 400px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid black;
+      font-family: inherit;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 15px;
+      background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);
+      border: 1px solid black;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    p {
+      margin-top: 15px;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Signup</h2>
+    <form action="index.html">
+      <label>First Name</label>
+      <input type="text" required>
+      
+      <label>Last Name</label>
+      <input type="text" required>
+      
+      <label>Email</label>
+      <input type="email" required>
+      
+      <label>Password</label>
+      <input type="password" required>
+      
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account?<br><a href="login.html">Login here</a></p>
+  </div>
+
+</body>
+</html>
